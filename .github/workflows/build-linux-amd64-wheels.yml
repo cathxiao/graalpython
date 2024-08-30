@@ -553,7 +553,7 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: scipy-linux-amd64
-          path: scipy*.whl
+          path: SciPy*.whl
           if-no-files-found: error
   scikit-learn-linux-amd64:
     runs-on: ubuntu-latest
